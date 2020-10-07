@@ -1,0 +1,35 @@
+<div fxLayout="column" class="main-container" [ngClass.xs]="'main-container-responsive'">
+    <div fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+        <img class="profile-photo" src="/assets/images/goku.png">
+    </div>
+    <div fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+        <div fxFlex="30" fxFlex.sm="50" fxFlex.md="50" fxFlex.xs="80">
+            <p class="text" [ngClass.xs]="'text-responsive'">My name is Ángel Suárez, I´m Fronted Developer and I'm passionate about challenges. My training is as a geographer and in recent years I have been specializing in another of my passions, Web Development. My goal is to continue learning about
+                the latest technologies that are applied to the world from the web and develop increasingly complex applications that add value to society. Besides geography and computer science, I also like to learn about health, training, nutrition
+                and how our brain works. I considerer that they are fields that connected help me to progress more in my professional field and to achieve my objetives.</p>
+        </div>
+    </div>
+    <div class="interest-text" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+        <div>
+            <span class="text" [ngClass.xs]="'text-responsive'">My interests</span>
+        </div>
+    </div>
+    <div fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
+        <div class="interest" fxLayout="row" fxLayoutAlign="center center">
+            <img class="icon" [ngClass.xs]="'icon-responsive'" src="/assets/images/icon-gym.png">
+            <span class="text" [ngClass.xs]="'text-responsive'">Sports</span>
+        </div>
+        <div class="interest" fxLayout="row" fxLayoutAlign="center center">
+            <img class="icon" [ngClass.xs]="'icon-responsive'" src="/assets/images/icon-headphones.png">
+            <span class="text" [ngClass.xs]="'text-responsive'">Music</span>
+        </div>
+        <div class="interest" fxLayout="row" fxLayoutAlign="center center">
+            <img class="icon" [ngClass.xs]="'icon-responsive'" src="/assets/images/icon-book.png">
+            <span class="text" [ngClass.xs]="'text-responsive'">Books</span>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="center center">
+            <img class="icon" [ngClass.xs]="'icon-responsive'" src="/assets/images/icon-travel.png">
+            <span class="text" [ngClass.xs]="'text-responsive'">Travel</span>
+        </div>
+    </div>
+</div>

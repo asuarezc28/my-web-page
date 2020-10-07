@@ -1,0 +1,92 @@
+.sidenav-container {
+    width: 40%;
+    background-color: #333439;
+}
+
+.close-button {
+    margin-right: 10%;
+    color: #FFFEFD;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.mat-toolbar-row {
+    background-color: #333439;
+}
+
+.menu-button {
+    color: #FFFEFD;
+}
+
+.active-route:focus {
+    outline: 0;
+}
+
+.button-route {
+    cursor: pointer;
+    margin-right: 2vh;
+    color: #FFFEFD;
+    font-size: 14px;
+}
+
+.active-route {
+    color: #54BFB5;
+    /* border-bottom: 1px solid #54BFB5; */
+}
+
+.button-route-responsive {
+    cursor: pointer;
+    margin-left: 2vh;
+    color: #A7A08D;
+}
+
+.active-route-responsive {
+    color: #FFFEFD;
+}
+
+.button-route:focus {
+    outline: none;
+}
+
+.button-route-responsive:focus {
+    outline: none;
+}
+
+.logo {
+    color: #FFFEFD;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 5vh;
+}
+
+.container-items {
+    width: 100%;
+}
+
+.line-items {
+    margin-bottom: 2vh;
+    border-top: 1px solid #54BFB5;
+}
+
+.logo-responsive {
+    height: 20px;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+    outline: none;
+}
+
+img {
+    outline: none;
+}
+
+.link-icon {
+    margin-right: 10px;
+}

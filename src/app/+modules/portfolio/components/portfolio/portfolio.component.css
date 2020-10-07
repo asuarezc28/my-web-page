@@ -1,0 +1,80 @@
+::ng-deep .dark-modal .modal-content {
+    background-color: #333439;
+    color: #C3C3C3;
+}
+
+::ng-deep .dark-modal .close {
+    color: #F5F5F5;
+}
+
+::ng-deep .light-blue-backdrop {
+    background-color: #5cb3fd;
+}
+
+::ng-deep .modal-title {
+    color: #979FA6;
+}
+
+::ng-deep .modal-header {
+    border-bottom: 0px;
+}
+
+::ng-deep .modal-footer {
+    border-top: 1px solid #C3C3C3;
+}
+
+.icon {
+    width: 100%;
+    cursor: pointer;
+}
+
+.icon:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.icon-modal {
+    margin-right: 10px;
+}
+
+#button-item {
+    width: 100%;
+}
+
+.item-portfolio {
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
+
+.item-portfolio-responsive {
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0;
+    background-color: #333439;
+    color: #979FA6;
+    border-color: #979FA6;
+}
+
+span {
+    color: white;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.main-content {
+    margin-top: 5vh;
+}

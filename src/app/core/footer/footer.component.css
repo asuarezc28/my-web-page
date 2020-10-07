@@ -1,0 +1,17 @@
+.footer {
+    background-color: #333439;
+    height: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    color: #54BFB5;
+}
+
+.made-with {
+    color: #A7A08D;
+}

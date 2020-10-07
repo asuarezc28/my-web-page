@@ -1,0 +1,47 @@
+.home-background {
+    height: calc(100% - 185px);
+    /* background: url(/assets/images/home.PNG); */
+}
+
+.home-background-responsive {
+    height: calc(100% - 177px);
+    /* background: url(/assets/images/home.PNG); */
+}
+
+.main-tittle {
+    font-size: 80px;
+    color: #FFFEFD;
+    margin-bottom: 20px;
+}
+
+.main-tittle-responsive {
+    font-size: 50px;
+    color: #FFFEFD;
+    margin-bottom: 20px;
+}
+
+.last-name {
+    color: #54BFB5;
+    font-size: 80px;
+}
+
+.last-name-responsive {
+    color: #54BFB5;
+    font-size: 50px;
+}
+
+.role {
+    color: #FFFEFD;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.role-responsive {
+    color: #FFFEFD;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}

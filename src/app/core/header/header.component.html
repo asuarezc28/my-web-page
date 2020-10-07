@@ -1,0 +1,47 @@
+<div fxLayout="row" fxFlex="100" fxShow="true" fxHide.lt-md>
+    <mat-toolbar>
+        <mat-toolbar-row fxLayout="row">
+            <div fxLayout="row" fxFlex="100" fxLayoutAlign="space-between center">
+                <div fxLayout="row"> <img routerLink="/home" class="logo" src="/assets/images/Logo.png" alt="image"></div>
+                <div fxLayout="row">
+                    <div *ngFor="let link of links">
+                        <mat-raised-button class="button-route" [routerLink]="link.url" routerLinkActive="active-route">{{link.label}}</mat-raised-button>
+                    </div>
+                </div>
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</div>
+
+<div fxLayout="row" fxFlex="100" fxShow="true" fxHide.gt-sm>
+    <mat-toolbar>
+        <mat-toolbar-row fxLayout="row" fxFlex="100" fxLayoutAlign="space-between center">
+            <div fxFlex="50" fxLayout="row" fxLayoutAlign="start end"> <img routerLink="/home" class="logo-responsive" src="/assets/images/Logo.png" alt="image"></div>
+            <div fxLayout="row">
+                <button class="menu-button" mat-icon-button (click)="sidenav.toggle()">
+              <mat-icon>menu</mat-icon>
+            </button>
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</div>
+<mat-sidenav-container fxShow="true" fxHide.gt-sm>
+    <mat-sidenav class="sidenav-container" fxFlex="100" fxLayout="column" position="end" fixedInViewport="true" #sidenav>
+        <mat-list>
+            <div fxFlex="100" fxLayout="column">
+                <div fxFlex="100" fxLayout="row" fxLayoutAlign="end center">
+                    <mat-icon class="close-button" (click)="sidenav.toggle()">close</mat-icon>
+                </div>
+                <div *ngFor="let link of links" fxFlex="100" fxLayout="row" fxLayoutAlign="center center">
+                    <div fxLayout="column" class="container-items">
+                        <mat-raised-button (click)="sidenav.toggle()" class="button-route-responsive" [routerLink]="link.url" routerLinkActive="active-route-responsive">
+                            <div fxLayout="row" fxLayoutAlign="start center">
+                                <mat-icon class="link-icon">{{link.icons}}</mat-icon><span>{{link.label}}</span></div>
+                        </mat-raised-button>
+                        <div fxFlex="80" fxLayout="row" class="line-items"></div>
+                    </div>
+                </div>
+            </div>
+        </mat-list>
+    </mat-sidenav>
+</mat-sidenav-container>
