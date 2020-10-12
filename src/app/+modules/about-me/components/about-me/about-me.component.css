@@ -16,7 +16,7 @@ p {
 }
 
 .main-container-responsive {
-    margin-top: 1vh;
+    margin-top: 5vh;
 }
 
 .interest {
@@ -38,5 +38,6 @@ p {
 }
 
 .profile-photo {
+    height: 230px;
     margin-bottom: 20px;
 }
