@@ -76,5 +76,18 @@ button:hover,
 }
 
 .main-content {
-    margin-top: 5vh;
+    margin-top: 3vh;
+}
+
+
+.row-content{
+    width: 100%;
+}
+
+.button-filters{
+    margin-top: 3vh;
+}
+
+span{
+    color: #979FA6; 
 }
