@@ -24,10 +24,6 @@ export class PortfolioComponent implements OnInit {
     this.modalService.open(content2, { size: 'lg', centered: true, windowClass: 'dark-modal' });
   }
 
-  react(){
-    this.show  = 'react'; 
-  }
-
   javascript(){
     this.show  = 'javascript'; 
   }

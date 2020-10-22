@@ -98,43 +98,14 @@
         <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
     </div>
 </ng-template>
-<ng-template #content6 let-modal>
-    <div class="modal-header">
-        <h4 class="modal-title">WALKING TRAILS </h4>
-        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body">
-        <p>Application about the trails of the island of La Palma, developed with React.js and ESRI API 4.12. All the
-            trails on the island are represented on the map differentiated by its difficulty. In the right side menu,
-            the user can choose what trails
-            will be shown on the map and you can select a certain difficulty. Once the user selects the difficulty and
-            click clicking on the "Consult" button will generate in the same menu a list of the trails that have such
-            difficulty, which the user
-            can easily identify by clicking on the icon of a magnifying glass located to the right of the trail name,
-            answering the map with a zoom to that trail. Finally the user can also search a certain trail from the list
-            with a search engine typing
-            the name on the top of this listing</p>
-        <a href="https://github.com/asuarezc28/walking-trails" class="icon-modal" target="_blank"> <img alt="Github"
-                src="/assets/images/icon-github.png" title="Github"></a>
-        <a href="https://asuarezc28.github.io/walking-trails/" class="icon-modal" target="_blank"> <img
-                src="/assets/images/icon-link.png" title="See me live"></a>
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
-    </div>
-</ng-template>
+ 
 
 <div fxLayout="column">
-
     <div class="button-filters" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
         <button class="btn btn-outline-primary mb-2 mr-2" (click)="all()"> ALL</button>
         <button class="btn btn-outline-primary mb-2 mr-2" (click)="angular()"> <img src="/assets/images/icon-angular.png"> <span fxShow="true" fxHide.lt-md >ANGULAR</span> </button>
-        <button class="btn btn-outline-primary mb-2 mr-2" (click)="react()"> <img  src="/assets/images/icon-react.png"> <span fxShow="true" fxHide.lt-md > REACT</span></button>
         <button class="btn btn-outline-primary mb-2 mr-2" (click)="javascript()"> <img src="/assets/images/icon-js.png"> <span fxShow="true" fxHide.lt-md>JAVASCRIPT</span></button>
     </div>
-
     <div class="main-content" fxLayout="column" fxLayoutAlign="center center">
         <div class="row-content" fxLayout="row" fxFlex="100" fxLayoutAlign="center center">
             <div fxLayout="row wrap" fxFlex="80" fxLayout.xs="column" fxFlex.xs="90" fxFlex.sm="90" fxFlex.md="90">
@@ -145,14 +116,6 @@
                         WEB
                     </button>
                 </div>
-                <div class="test" *ngIf="show === 'react' || show === 'all'" fxLayout="column" fxFlex="30"
-                class="item-portfolio" [ngClass.xs]="'item-portfolio-responsive'">
-                <img class="icon" (click)="openLg(content6)" class="icon" src="/assets/images/walking-viewer.png">
-                <button id="button-item" class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(content6)">
-                    WALKING
-                    TRAILS
-                </button>
-            </div>
                 <div *ngIf="show === 'javascript' || show === 'all' " fxLayout="column" fxFlex="30"
                     class="item-portfolio" [ngClass.xs]="'item-portfolio-responsive'">
                     <img class="icon" (click)="openLg(content2)" src="/assets/images/growth-viewer.png">
@@ -187,5 +150,4 @@
             </div>
         </div>
     </div>
-
 </div>
