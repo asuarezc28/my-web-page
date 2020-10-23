@@ -10,7 +10,7 @@
     background-color: #333439;
 }
 
-.card-subtitle-responsive-sm{
+.card-subtitle-responsive-sm {
     margin-bottom: 10px;
     width: 90%;
     background-color: #333439;
@@ -49,6 +49,18 @@ span {
     margin-top: 3vh;
 }
 
-.box{
-    border-bottom: 5px solid red;
+.box {
+    border-bottom: 1px solid #C3C3C3;
+    width: 60%;
+}
+
+.box-responsive {
+    border-bottom: 1px solid #C3C3C3;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.company {
+    height: 200px;
+    width: 200px;
 }
