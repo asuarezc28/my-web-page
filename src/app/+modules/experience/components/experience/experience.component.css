@@ -49,6 +49,10 @@ span {
     margin-top: 3vh;
 }
 
+.main-container-responsive {
+    margin-top: 8vh;
+}
+
 .box {
     border-bottom: 1px solid #C3C3C3;
     width: 60%;
@@ -60,7 +64,14 @@ span {
     margin-bottom: 10px;
 }
 
+.box-responsive-sm {
+    border-bottom: 1px solid #C3C3C3;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
 .company {
     height: 200px;
     width: 200px;
+    cursor: pointer;
 }
