@@ -48,3 +48,7 @@ span {
 .main-container {
     margin-top: 3vh;
 }
+
+.box{
+    border-bottom: 5px solid red;
+}
